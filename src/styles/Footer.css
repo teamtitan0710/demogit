@@ -1,0 +1,76 @@
+/* Tổng thể cho footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer h5 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Style cho từng cột trong footer */
+.footer .footer-col {
+    margin-bottom: 30px;
+}
+
+.footer .footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer .footer-col ul li a {
+    color: #d1d1d1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .footer-col ul li a:hover {
+    color: #28a745; /* Màu sắc khi hover */
+}
+
+/* Các icon mạng xã hội */
+.footer .social-icons {
+    margin-top: 20px;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #d1d1d1;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #28a745;
+}
+
+/* Chân trang */
+.footer .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #a1a1a1;
+}
+
+.footer .footer-bottom a {
+    color: #a1a1a1;
+    text-decoration: none;
+}
+
+.footer .footer-bottom a:hover {
+    color: #28a745;
+}

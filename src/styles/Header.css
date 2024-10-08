@@ -1,0 +1,68 @@
+/* Style cho toàn bộ thanh Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #f5f5f5;
+}
+
+/* Style cho phần điều hướng */
+.nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav ul li {
+    margin: 0 15px;
+    line-height: 20px ;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cart-icon img {
+    width: 30px;
+}
+.text-content{
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Style cho form tìm kiếm */
+.form-control {
+    width: 200px; /* Điều chỉnh chiều rộng */
+    border-radius: 20px; /* Bo tròn các góc */
+    border: 1px solid #ddd; /* Viền nhẹ màu xám */
+    padding: 8px 15px; /* Tăng khoảng cách bên trong */
+    transition: all 0.3s ease; /* Tạo hiệu ứng khi focus */
+}
+
+/* Hiệu ứng khi người dùng focus vào thanh tìm kiếm */
+.form-control:focus {
+    width: 300px; /* Mở rộng chiều rộng khi focus */
+    border-color: #28a745; /* Đổi màu viền khi focus */
+    outline: none; /* Bỏ khung outline mặc định */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Tạo hiệu ứng đổ bóng khi focus */
+}
+
+/* Style cho nút Search */
+.btn-outline-success {
+    border-radius: 20px; /* Bo tròn nút */
+    margin-left: 10px; /* Cách một khoảng giữa nút và thanh tìm kiếm */
+    padding: 8px 20px; /* Điều chỉnh kích thước nút */
+    border: 1px solid #28a745; /* Đổi màu viền */
+    color: #28a745; /* Màu chữ */
+    transition: all 0.3s ease; /* Hiệu ứng khi hover */
+}
+
+/* Hiệu ứng khi hover vào nút Search */
+.btn-outline-success:hover {
+    background-color: #28a745; /* Màu nền khi hover */
+    color: #fff; /* Đổi màu chữ khi hover */
+}
+
