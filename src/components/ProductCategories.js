@@ -1,11 +1,13 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-
+import hatmeo  from '../img/hatmeo.webp';
+import xuongcho  from '../img/xuongho.webp';
+import patemeo  from '../img/patemeo.webp';
 const ProductCategories = () => {
     const categories = [
-        { id: 1, name: 'Food', img: 'food.jpg' },
-        { id: 2, name: 'Toys', img: 'toys.jpg' },
-        { id: 3, name: 'Accessories', img: 'accessories.jpg' },
+        { id: 1,  img: hatmeo},
+        { id: 2,  img: xuongcho },
+        { id: 3,  img: patemeo },
     ];
 
     return (
